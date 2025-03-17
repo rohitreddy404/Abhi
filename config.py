@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "29483517"))
 API_HASH = environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7551015847:AAFnqUTrS-rBk58s8tQOMJLTuVigQ0Ymjic")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7650392649:AAHPpHvaHsjFtl27-q_ImkE1ZeHsGkls8kE")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "bottingbossbot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Feedbackdenabot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -64,10 +64,10 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "https://github.com/abhinai2244/aboutme") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
@@ -87,3 +87,4 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
     
+
