@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "7791477566:AAGQAq7iY0m5lv3Bsq4uGlmZC_r3gu7
 
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Feedbackdenabot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "anime_rtxxbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
